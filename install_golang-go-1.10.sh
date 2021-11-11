@@ -6,7 +6,7 @@ which go || {
 
   # install golang
   apt-get install -y snapd
-  snap install go --classic
+  snap install go --classic --channel=1.10/stable
 
   # set base
   # if we are in sudo use the calling user
