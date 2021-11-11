@@ -2,6 +2,6 @@
 
 export DEBIAN_FRONTEND=noninteractive
 
-# install jq
+# install gcc
 apt-get update -y
 apt-get install -y gcc
